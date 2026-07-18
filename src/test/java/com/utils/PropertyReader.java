@@ -13,7 +13,7 @@ public class PropertyReader {
             try (FileInputStream fis = new FileInputStream("./config.properties")) {
                 prop.load(fis);
             } catch (IOException e) {
-                System.out.println(STR."Warning: \{e.getMessage()}");
+                System.out.println("error");
             }
         }
         return prop;

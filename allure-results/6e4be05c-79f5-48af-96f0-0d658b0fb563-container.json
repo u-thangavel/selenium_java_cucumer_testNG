@@ -1,1 +1,0 @@
-{"uuid":"6e4be05c-79f5-48af-96f0-0d658b0fb563","name":"com.Web_Test.SelectParkTest","children":["0a867fef-d6db-4c68-8747-25b483de0cdf"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1739281499503,"stop":1739281501327}],"afters":[],"start":1739281499473,"stop":1739281567969}
