@@ -1,23 +1,31 @@
-# Compiled class files
+# --- Compiled & Build Files ---
 *.class
-
-# Maven build directory
 target/
+dependency-reduced-pom.xml
+buildNumber.properties
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
 
-# IntelliJ IDEA project files
+# --- IDE & Editor Files ---
 .idea/
 *.iml
+.project
+.classpath
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
-# Cucumber/Allure Reports
+# --- Reports & Logs ---
 Results/
 allure-results/
 .allure/
-
-
-# Log files
 *.log
 
-# System files
+# --- System ---
 .DS_Store
+
+# --- Project Specific ---
 git
 workout.txt
