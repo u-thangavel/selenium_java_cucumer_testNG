@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 @Setter
 public class Google extends BaseClass {
 
-    @FindBy(linkText="Select Park")
+    @FindBy(linkText="Locator")
     private WebElement selectParkHome;
 
     public void navigateToURL(String URL) {
