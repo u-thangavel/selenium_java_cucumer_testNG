@@ -1,16 +1,13 @@
-package com.Web_Utils;
+package com.utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 
 import java.time.Duration;
 
 public class WebDriverManager {
     static ThreadLocal<WebDriver> localDriver = new ThreadLocal<>();
-
     public static WebDriver getDriver(String browser) {
         if (localDriver.get() == null) {
             switch (browser.toLowerCase()) {

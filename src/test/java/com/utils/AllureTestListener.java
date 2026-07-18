@@ -1,6 +1,4 @@
-
 package com.utils;
-import com.Web_Utils.BaseClassWeb;
 import io.qameta.allure.Allure;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -13,7 +11,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 
-public class AllureTestListener extends BaseClassWeb implements ITestListener  {
+public class AllureTestListener extends BaseClass implements ITestListener  {
     @Override
     public void onTestStart(ITestResult result) {
         // You can add test data here
@@ -43,5 +41,4 @@ public class AllureTestListener extends BaseClassWeb implements ITestListener  {
             e.printStackTrace();
         }
     }
-
 }

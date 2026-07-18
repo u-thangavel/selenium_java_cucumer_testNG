@@ -1,34 +1,23 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/All_in_Code
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-<<<<<<< HEAD
-=======
-.allure/allure-230.0
-.idea/
->>>>>>> origin/All_in_Code
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
+# Compiled class files
+*.class
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
-# Intellij 
+# Maven build directory
+target/
+
+# IntelliJ IDEA project files
+.idea/
 *.iml
-<<<<<<< HEAD
-=======
-=======
-.gitignore
->>>>>>> e5a4e7bf7a24022f38b9d279f9ddb3cb7a1a6b4f
->>>>>>> origin/All_in_Code
+
+# Cucumber/Allure Reports
+Results/
+allure-results/
+.allure/
+
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+git
+workout.txt
